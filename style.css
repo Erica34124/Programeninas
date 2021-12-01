@@ -5,6 +5,7 @@ html, body {
 }
 body {
     background: #fff;
+    background-image: linear-gradient(plum, darkblue);
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
@@ -162,6 +163,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     justify-content: center;
     align-items: center; 
     color:#5e3474;
+    
   }
   
   .roller #rolltext {
@@ -188,11 +190,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   footer {
     padding: 1% 5%;
     text-align:center;
-    background-color: #e49ab0;
+    /* background-color: #5b0bb8; */
     color:#F1FAEE;
     font-weight: 500;
     text-decoration: none;
+    background: linear-gradient(180deg, #e49ab0 0%, #3F5EFB 100%);
     
+  }
+  .meninas{
+    color: #e49ab0;
+    text-decoration: none;
+    margin-top: 40px;
   }
 
   /* Responsividade */
@@ -251,4 +259,23 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
       color: transparent;
     }
   
+  }
+
+  /*erica*/
+  .imagem a img {
+    width: 100px;
+    border-radius: 100%;
+    border: solid 5px rgb(230, 13, 164);
+  }
+  .imagem a {
+    color: rgb(230, 13, 164);
+    text-decoration-style: none;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+  }
+  footer ul li {
+    display: inline-block;
+    text-align: justify;
+    margin-left: 50px;
   }
