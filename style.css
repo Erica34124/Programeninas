@@ -256,7 +256,7 @@ footer {
     html,
     body {
       font-size: 0.9em;
-      padding: 10px;
+      
     }
     footer {
       font-size: 200%;
@@ -266,12 +266,12 @@ footer {
       
       font-size: 1em;
       width: 60px;
-      margin: 10px auto;
+      
     }
     .sobredescricao{
       font-size: 100%;
       width: 40px;
-      margin: 10px auto;
+      
     }
     .sobre{
       flex-wrap: initial;
