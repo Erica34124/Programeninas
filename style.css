@@ -252,32 +252,8 @@ footer {
     font-size: 87.5%;
   }
 
-  @media (max-width: 500px) {
-    html,
-    body {
-      font-size: 0.9em;
-      
-    }
-    footer {
-      font-size: 200%;
-      padding: 10px;
-    }
-    .sobrehabilidades {
-      
-      font-size: 1em;
-      width: 60px;
-      
-    }
-    .sobredescricao{
-      font-size: 100%;
-      width: 40px;
-      
-    }
-    .sobre{
-      flex-wrap: initial;
-      
-    }
-  }
+  
+  
 
   .roller #rolltext {
     animation: hidden;
