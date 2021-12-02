@@ -71,8 +71,35 @@
     padding: 15px;
     border-radius: 30px;
   }
-  .banner {
+  /*Imagens individuais*/
+  .imgErica{
     background-image: url(imagens/eu.jpg);
+    max-width: 100%;
+    
+  }
+  .imgKaren{
+    background-image: url(imagens/karen.jpg);
+    max-width: 100%;
+  }
+  .imgJosi{
+    background-image: url(imagens/josiFundo.jpg);
+    max-width: 100%;
+
+  }
+  .imgLivia{
+    background-image: url(imagens/liviafundo.jpg);
+    max-width: 100%;
+  }
+  .imgLorraine{
+    background-image: url(imagens/eu.jpg);
+    max-width: 100%;
+  }
+  .imgHeloisa{
+    background-image: url(imagens/eu.jpg);
+    max-width: 100%;
+  }
+  .banner {
+    
     background-size: cover;
     height: 100vh;
     color: rgb(226, 220, 231);
@@ -97,6 +124,7 @@
     margin: 16px;
     color: white;
   }
+  
   .rede {
     display: flex;
     justify-content: center;
