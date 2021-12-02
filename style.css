@@ -249,7 +249,7 @@ footer {
 @media (max-width: 600px) {
   html,
   body {
-    font-size: 87.5%;
+    font-size: 1em;
   }
 
   
