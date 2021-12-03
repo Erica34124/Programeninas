@@ -141,6 +141,11 @@
     justify-content: center;
     margin-top: 62px;
   }
+  .card-col {
+    float: left;
+    padding: 8px 16px;
+    width: 33.33%;
+  }
   .footer {
     text-align: center;
     color: darkblue;
