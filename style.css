@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 html,
 body {
-  overflow-x: hidden;
-  height: 100%;
+overflow-x: hidden;
+height: 100%;
 }
 body {
   background: #fff;
@@ -312,4 +312,7 @@ footer ul li {
   
   width: 100px;
   background-color: darkgrey;
+}
+#lista li{
+  list-style: none;
 }
