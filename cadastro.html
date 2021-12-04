@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body class="geral">
+    <header>
+        <h1>Cadastro de usuários</h1>
+    </header>
+    <main class="md">
+        <h3>Dados pessoais</h3>
+        <form class="formulario" action="">
+
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="Digite seu nome completo">
+
+            <label for="telefone">Telefone</label>
+            <input placeholder="(19) 00000 0000" id="telefone" type="tel">
+
+            <label for="email">E-mail</label>
+            <input id="email" type="email" placeholder="nome@sobrenome.com.br">
+
+            <label for="comentario">Deixe suas sugestões</label>
+            <textarea name="comentario" id="comentarios" cols="80" rows="10"></textarea>
+
+            <label for=""><input id="input" class="btn" type="button" value="Enviar"></label>
+
+
+
+        </form>
+        <ul id="lista">
+            <li> <h2><span id="retornoNome"></span></h2></li>
+            <li><span id="retornoTel"></span></li>
+            <li><span id="retornoEmail"></span></li>
+            <li><span id="retornoCome"></span></li>
+        </ul>
+       
+
+        
+        
+      <section>
+          <h2><a href="index.html" target="_blank" rel="noopener noreferrer"><input type="button" value="Retornar ao menu inicial"></a></h2>
+      </section>  
+
+    </main>
+    <footer>
+        <h3>Fale conosco através do Whatsapp (19) 99336 -7102</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

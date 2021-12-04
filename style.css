@@ -280,3 +280,36 @@ footer ul li {
   text-align: justify;
   margin-left: 50px;
 }
+/* formulario */
+.geral{
+  margin: 40px auto;
+  text-align: center;
+}
+.cb{
+
+  margin-top: 40px;
+  padding: 40px 10px;
+}
+.mn{
+  
+  text-align: center;
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  padding: 40px 10px;
+}
+.formulario label{
+  display: block;
+  margin: 20px auto;
+ 
+  
+}
+.formulario  input{
+  width: 550px;
+  text-align: center;
+}
+#input{
+  
+  width: 100px;
+  background-color: darkgrey;
+}
