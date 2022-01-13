@@ -5,14 +5,17 @@ body {
   height: 100%;
 }
 body {
-  background: #fff;
-  background-image: linear-gradient(plum, darkblue);
+  background: rgb(22, 12, 12);
+  background-image: linear-gradient(rgb(7, 1, 17), rgb(2, 2, 17));
   padding: 0;
   margin: 0;
   font-family: "Varela Round", sans-serif;
-  background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2021/07/mulheres-na-TI.jpg);
+  /* background-image: url(./imagens/rato.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
+}
+.rato img{
+  margin: 5px;
 }
 .header {
   display: block;
@@ -20,7 +23,7 @@ body {
   width: 100%;
   max-width: 100%;
   box-shadow: none;
-  background-color: #e49ab0;
+  background-color: #19191f;
   position: fixed;
   height: 60px !important;
   overflow: hidden;
@@ -35,13 +38,13 @@ body {
   margin-top: 60px;
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
-  background: linear-gradient(180deg, #e49ab0 0%, #3f5efb 100%);
+  background: linear-gradient(180deg, #5b0fc0 0%, #3f5efb 100%);
 }
 
 .sidebarMenuInner {
   margin: 0;
   padding: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(175, 110, 49, 0.1);
 }
 
 .sidebarMenuInner li {
@@ -51,7 +54,7 @@ body {
   font-weight: bold;
   padding: 20px;
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(160, 71, 71, 0.1);
 }
 
 .sidebarMenuInner li span {
@@ -146,7 +149,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #f1faee;
+  color: #0f12c0;
   font-size: 3rem;
   margin-top: 10rem;
 }
@@ -160,7 +163,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #5e3474;
+  color: #9091e2;
 }
 
 .roller #rolltext {
@@ -190,7 +193,7 @@ footer {
   color: #f1faee;
   font-weight: 500;
   text-decoration: none;
-  background: linear-gradient(180deg, #e49ab0 0%, #3f5efb 100%);
+  background: linear-gradient(180deg, #1114db 0%, #3f5efb 100%);
 }
 .meninas {
   color: #e49ab0;
